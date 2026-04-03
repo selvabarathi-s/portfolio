@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvabarathi Sekar | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">SS<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="hero-name">Selvabarathi <span class="accent">Sekar</span></h1>
+                <p class="hero-title">Aspiring Web Developer & UI/UX Enthusiast</p>
+                <p class="hero-description">A motivated IT student with a strong foundation in programming and a growing interest in web development. Proactive learner with strong problem-solving skills.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/selvabarathi-s" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/selvabarathi-sekar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://leetcode.com/u/selvabarathi_Sekar/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                    <a href="mailto:selvabarathi.s.it@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot-red"></span>
+                        <span class="dot-yellow"></span>
+                        <span class="dot-green"></span>
+                        <span class="code-title">about_me.py</span>
+                    </div>
+                    <div class="code-body">
+                        <pre><code><span class="keyword">class</span> <span class="class-name">Selvabarathi</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        self.name = <span class="string">"Selvabarathi Sekar"</span>
+        self.role = <span class="string">"IT Student"</span>
+        self.cgpa = <span class="number">7.9</span>
+        self.skills = [<span class="string">"Python"</span>, <span class="string">"Java"</span>, <span class="string">"C"</span>]
+        self.interests = [<span class="string">"Web Dev"</span>, <span class="string">"UI/UX"</span>]
+
+    <span class="keyword">def</span> <span class="function">get_motto</span>(self):
+        <span class="keyword">return</span> <span class="string">"Code. Create. Innovate."</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-info">
+                    <p class="about-text">I'm a Bachelor of Information Technology student at <strong>Dr. Mahalingam College of Engineering and Technology</strong> with a current CGPA of <strong>7.9</strong>. I'm passionate about web development and UI/UX design, with hands-on experience building full-stack projects.</p>
+                    <p class="about-text">My journey in tech includes winning multiple web development competitions, completing internships, and actively solving problems on LeetCode. I believe in continuous learning and collaborative problem-solving.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Education</span>
+                            <span class="detail-value">B.IT - Dr. MCET</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">CGPA</span>
+                            <span class="detail-value">7.9 / 10</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">School</span>
+                            <span class="detail-value">Sri Ram Matric HSS</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Tamil Nadu, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Internship</h3>
+                        <p>Robotics Intern at Robomiracle Technologies Pvt Ltd, Coimbatore</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications</h3>
+                        <p>C, C++, Java, Python, SQL | Business Fundamentals (NPTEL) | MIS (NPTEL)</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Activities</h3>
+                        <p>Executive Committee Member - IT Dept | NSS Volunteer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="accent">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">DevOps</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Logical Thinking</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="accent">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/selvabarathi-s/code-haven" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Code Haven</h3>
+                    <p>A web-based platform for coding enthusiasts to learn, practice, and collaborate on programming challenges.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-ticket-alt"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/selvabarathi-s/Ticket-Booker" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Ticket Booker</h3>
+                    <p>An online ticket booking application with seamless user experience for event and travel bookings.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/selvabarathi-s/Deepfake-Detection" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Deepfake Detection</h3>
+                    <p>A machine learning-based system to detect deepfake content using advanced image analysis techniques.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-hospital"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/selvabarathi-s/Hospital-Management-System" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Hospital Management System</h3>
+                    <p>A comprehensive system for managing hospital operations including patient records, appointments, and billing.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-search-location"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/selvabarathi-s/lost-found-management" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Lost & Found Management</h3>
+                    <p>Campus lost and found system developed in under an hour — won 2nd prize in Frontend Fusion event.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-seedling"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/selvabarathi-s/Agri-Smart" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Agri-Smart</h3>
+                    <p>Smart agriculture platform providing crop prediction, weather insights, and farming recommendations.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">My <span class="accent">Achievements</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-badge"><i class="fas fa-trophy"></i></span>
+                        <h3>3rd Prize — Webify</h3>
+                        <p>Developed an "Inventory Prediction System" website, securing third place in the web development competition.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-badge"><i class="fas fa-file-alt"></i></span>
+                        <h3>1st Prize — Paper Presentation</h3>
+                        <p>Won first place for presenting an innovative idea on Progressive Web Applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-badge"><i class="fas fa-medal"></i></span>
+                        <h3>2nd Prize — Frontend Fusion</h3>
+                        <p>Built a "Campus Lost and Found" system in under one hour, earning second place in the rapid frontend challenge.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-badge"><i class="fas fa-graduation-cap"></i></span>
+                        <h3>Robotics Internship</h3>
+                        <p>Completed a robotics internship at Robomiracle Technologies Private Limited, Coimbatore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:selvabarathi.s.it@gmail.com">selvabarathi.s.it@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919443307994">+91 9443307994</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin-in"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/selvabarathi-sekar" target="_blank" rel="noopener noreferrer">linkedin.com/in/selvabarathi-sekar</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/selvabarathi-s" target="_blank" rel="noopener noreferrer">github.com/selvabarathi-s</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Selvabarathi Sekar. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/selvabarathi-s" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/selvabarathi-sekar" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://leetcode.com/u/selvabarathi_Sekar/" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
